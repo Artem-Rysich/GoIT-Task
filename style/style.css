@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.gallery {
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.card-list {
+  list-style: none;
+}
+
+.card-img {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+}
